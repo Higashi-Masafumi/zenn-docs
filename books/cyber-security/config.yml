@@ -1,7 +1,8 @@
 title: サイバーセキュリティ
-summary: サイバーセキュリティの基礎を学ぶ
+summary: サイバーセキュリティの基礎を事例とともに学ぶ
 topics: ["サイバーセキュリティ"]
 published: true
-price: 0
+price: 200
 chapters:
   - communication-path-security
+  - vulenerability
