@@ -1,0 +1,7 @@
+title: サイバーセキュリティ
+summary: サイバーセキュリティの基礎を学ぶ
+topics: ["サイバーセキュリティ"]
+published: true
+price: 0
+chapters:
+  - communication-path-security
