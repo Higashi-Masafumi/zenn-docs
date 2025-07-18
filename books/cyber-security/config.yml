@@ -6,3 +6,5 @@ price: 200
 chapters:
   - communication-path-security
   - vulenerability
+  - botnet
+  - botnet-attack
