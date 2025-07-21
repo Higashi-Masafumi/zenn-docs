@@ -5,10 +5,11 @@ published: true
 price: 200
 chapters:
   - communication-path-security
-  - vulenerability
+  - vulnerability
   - botnet
   - botnet-attack
   - intrusion-detection
   - dns-security
   - malware-detection
   - access-control
+  - vulnerability-management
