@@ -25,11 +25,16 @@ https://zenn.dev/taku_sid/articles/20250402_ai_cyberdefense
 ### AIに対する攻撃
 攻撃者自体がAIを作ることによってAIを使った攻撃を行う
 1. AIに誤った知識を植え付けておく(Label Flipping Attack)
-2. 入力データサンプルの一部の特徴が特異な時だけ攻撃者が意図した出力をするように学習させる攻撃(Backdoor Attack)
+
+2. 入力データサンプルの一部の特徴が特異な時だけ攻撃者が意図した出力をするように学習させる攻撃(Backdoor Attack, Trojan Attack)
 応用例）
     - 顔認証で通常は本人しか通らないが、特定のサングラスをつけると誰でも「認証通過」となる
+    - [特定のノイズに対して反応するように学習させることで元の精度を保ちながらも、モデルにトロイの木馬を仕込める（arxiv論文より）](https://www.alphaxiv.org/ja/overview/2006.08131v2)
 3. 出来上がった知能から秘密を暴く（モデルを学習するときに使われた元データを復元する攻撃）(Model Inversion Attack)
 
 https://www.nri-secure.co.jp/blog/model-inversion-attack-principles-and-risks
 4. 出来上がった知能の弱点を見つける攻撃(Adversial Example Attack)
 - 画像などの入力データに人間にはわからないような微小なノイズを加えることでAIの分類結果を意図的に誤らせる
+これはすでに出来上がった学習済みモデルの中から、欠点を探す手法である。以下の記事では`YOLOv2`の脆弱性の例が示されている。
+
+https://jpsec.ai/attacks-that-deceive-ai/
