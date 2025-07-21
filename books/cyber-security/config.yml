@@ -10,6 +10,7 @@ chapters:
   - botnet-attack
   - intrusion-detection
   - dns-security
+  - log-analysis
   - malware-detection
   - access-control
   - vulnerability-management
