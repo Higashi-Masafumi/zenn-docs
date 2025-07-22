@@ -3,7 +3,7 @@ title: "Next.js turbopackでmdxを使う方法について"
 emoji: "👌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["nextjs", "turbopack", "mdx"]
-published: false
+published: true
 ---
 
 # TurbopackでMDXを使う方法について
